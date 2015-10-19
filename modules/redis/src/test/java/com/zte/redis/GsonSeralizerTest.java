@@ -10,10 +10,4 @@ import static org.junit.Assert.*;
  */
 public class GsonSeralizerTest {
 
-    @Test
-    public void should_transform_into_gson() throws Exception {
-        Employee employee=new Employee().setId(1).setName("12");
-        String s = GsonSeralizer.toJson(employee);
-        System.out.println(s);
-    }
 }

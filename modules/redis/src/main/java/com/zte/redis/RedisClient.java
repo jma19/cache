@@ -22,4 +22,8 @@ public class RedisClient {
     public Object get(String key){
         return getClient().get(key);
     }
+
+    public void set(String key, String vlaue){
+        getClient().set(key,vlaue);
+    }
 }
